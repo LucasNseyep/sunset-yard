@@ -22,13 +22,13 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello, I'm Lucas. I'm a software engineer and quant researcher. You can contact me via <Link href="mailto:lucas.nseyep@gmail.com">email</Link>.</p>
+        <p>Hello there! I'm Lucas. I'm a software engineer and quant researcher based in London. You can contact me via <Link href="mailto:lucas.nseyep@gmail.com">email</Link>.</p>
         <p>
-          This is a blog where I talk about some interesting companies and products that were saddly sunsetted.
+          This is a blog where I talk about interesting companies and products I've come accross that were saddly sunsetted.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Posts</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
