@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello there! I'm Lucas. I'm a software engineer and quant researcher based in London. You can contact me via <Link href="mailto:lucas.nseyep@gmail.com">email</Link>.</p>
+        <p>Hello there! I'm Lucas. I'm a software engineer and quant researcher based in London.</p>
         <p>
           This is a blog where I talk about interesting companies and products I've come accross that were saddly sunsetted.
         </p>
