@@ -46,8 +46,8 @@ export default function Home({ allPostsData }) {
         <ul
           class="nav justify-content-center  "
         >
-          <li>Reading: <em>1984</em>,<em>Flash Crash</em>, <em>Will it make the boat go faster?</em></li>
-          <li>The one I revisit: <em>Who moved my cheese?</em>, <em>Steal like an artist</em>, <em>Show your work</em>, <em>Tools of Titans</em>, <em>Build</em>, <em>Steve Jobs</em></li>
+          <li>Reading: <em>1984</em>, <em>Flash Crash</em>, <em>Will it make the boat go faster?</em></li>
+          <li>The ones I revisit: <em>Who moved my cheese?</em>, <em>Steal like an artist</em>, <em>Show your work</em>, <em>Tools of Titans</em>, <em>Build</em>, <em>Steve Jobs</em></li>
           <li>Past reads: <em>Born a crime</em>, <em>The man who solved the market</em>, <em>Surely you're joking, Mr. Feyneman!</em>, <em>The Code</em>, <em>A man for all Markets</em></li>
         </ul>
 
